@@ -1,7 +1,11 @@
 public class HelloWorld {
-    private String text = "Hello World";
+    private String text = "Hello World!";
 
-    protected String Hello(){
+    public HelloWorld(){
+
+    }
+
+    public String Hello(){
         return text;
     }
 }
